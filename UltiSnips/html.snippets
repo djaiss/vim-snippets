@@ -108,7 +108,7 @@ endsnippet
 
 snippet ! "IE Conditional Comment: Internet Explorer 6 only"
 <!--[if IE 6]>${1:IE Conditional Comment: Internet Explorer 6 only   }<![endif]-->$0
-endsnippet
+endsnippeth
 
 snippet ! "IE Conditional Comment: Internet Explorer 7+"
 <!--[if gte IE 7]>${1:IE Conditional Comment: Internet Explorer 7 and above }<![endif]-->$0
@@ -186,10 +186,6 @@ snip.rv = (snip.basename or 'unnamed') + '_submit'
 
 	<p><input type="submit" value="Continue →"`!p x(snip)`></p>
 </form>
-endsnippet
-
-snippet h1 "XHTML <h1>" w
-<h1 id="${1/[\w\d]+|( )/(?1:_:\L$0\E)/g}">${1}</h1>
 endsnippet
 
 snippet head "XHTML <head>"
